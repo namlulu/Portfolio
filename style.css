@@ -95,11 +95,19 @@ button {
 /* Navbar */
 #navbar {
   display: flex;
+  position: fixed;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--color-blue);
+  width: 100%;
+  background-color: transparent;
   color: white;
   padding: 16px;
+  z-index: 1;
+}
+
+#navbar.navbar--blue {
+  background-color: var(--color-blue);
+  padding: 8px;
 }
 
 .navbar__logo {
@@ -147,6 +155,7 @@ button {
 #home {
   background: url('images/bg.png') center/cover no-repeat;
   padding: 40px;
+  padding-top: 120px;
   text-align: center;
 }
 
@@ -483,8 +492,30 @@ etc {
   color: var(--color-dark-grey);
 }
 
-/* Resposive Web */
+/* Scroll */
+.arrow--up {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  width: 70px;
+  height: 70px;
+  font-size: 50px;
+  text-align: center;
+  line-height: 70px;
+  color: var(--color-white);
+  background-color: var(--color-blue);
+  border-radius: 50%;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 300ms ease-in;
+}
 
+.arrow--up.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Resposive Web */
 @media screen and (max-width: 768px) {
   .navbar__toggle-button {
     display: block;
