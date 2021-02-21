@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
     <meta name="description" content="Best Web Developer in the World" />
     <meta name="author" content="Sean" />
+    <title>Sean Portfolio</title>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
@@ -144,7 +144,7 @@
         <p>
           I think the web is an interface that can communicate with people all
           over the world. I want to be a developer who develops a user-friendly
-          and convenient web at that interface. I believe that communication and
+          and convenient web interface. Also, I believe that communication and
           listening skills are important to become such a developer.
         </p>
         <div class="skillset">
@@ -198,10 +198,10 @@
             <div class="skill">
               <div class="skill__description">
                 <span>MySQL</span>
-                <span>50%</span>
+                <span>30%</span>
               </div>
               <div class="skill__bar">
-                <div class="skill__value" style="width: 50%"></div>
+                <div class="skill__value" style="width: 30%"></div>
               </div>
             </div>
           </div>
@@ -232,16 +232,16 @@
         <h1>My work</h1>
         <h3>Projects</h3>
         <div class="work__categories">
-          <button class="category__btn active">
-            All<span class="category__count">4</span>
+          <button class="category__btn active" data-filter="*">
+            All<span class="category__count">6</span>
           </button>
-          <button class="category__btn">
-            Front-end<span class="category__count">3</span>
+          <button class="category__btn" data-filter="front-end">
+            Front-end<span class="category__count">6</span>
           </button>
-          <button class="category__btn">
-            Back-end<span class="category__count">1</span>
+          <button class="category__btn" data-filter="back-end">
+            Back-end<span class="category__count">0</span>
           </button>
-          <button class="category__btn">
+          <button class="category__btn" data-filter="mobile">
             Mobile<span class="category__count">0</span>
           </button>
         </div>
@@ -251,6 +251,7 @@
             href="https://github.com/namlulu/shopping_clone"
             class="project"
             target="blank"
+            data-type="front-end"
           >
             <img
               src="./images/projects/shopping-min.png"
@@ -262,7 +263,12 @@
               <span>Clone Coding with HTML and CSS</span>
             </div>
           </a>
-          <a href="https://uds.ai" class="project" target="blank">
+          <a
+            href="https://uds.ai"
+            class="project"
+            target="blank"
+            data-type="front-end"
+          >
             <img
               src="./images/projects/uds-min.png"
               alt="UDS"
@@ -277,6 +283,7 @@
             href="https://namlulu.github.io/habit-tracker_clone/"
             class="project"
             target="blank"
+            data-type="front-end"
           >
             <img
               src="./images/projects/habbit-min.png"
@@ -292,6 +299,7 @@
             href="https://nervous-booth-2b9410.netlify.app/"
             class="project"
             target="blank"
+            data-type="front-end"
           >
             <img
               src="./images/projects/netflix-min.png"
@@ -301,6 +309,44 @@
             <div class="project__description">
               <h3>Simple Web App.</h3>
               <span>Clone Coding with React and Movie API</span>
+            </div>
+          </a>
+          <a
+            href="#"
+            class="project"
+            target="blank"
+            data-type="front-end"
+            onclick="(function(){
+              alert("Can't share result by UDS policy");
+          })()"
+          >
+            <img
+              src="./images/projects/particleCounter.png"
+              alt="Habbit-Tracker"
+              class="project__img"
+            />
+            <div class="project__description">
+              <h3>Particle Counter</h3>
+              <span>React Components with MUI, Plotly, TS</span>
+            </div>
+          </a>
+          <a
+            href="#"
+            class="project"
+            target="blank"
+            data-type="front-end"
+            onclick="(function(){
+              alert('기업 정책 상 코드나 결과물을 공유할 수 없습니다.');
+          })()"
+          >
+            <img
+              src="./images/projects/thickMeasurement.png"
+              alt="Habbit-Tracker"
+              class="project__img"
+            />
+            <div class="project__description">
+              <h3>Thick Measurement</h3>
+              <span>React Components with MUI, Plotly, TS</span>
             </div>
           </a>
         </div>
@@ -331,15 +377,16 @@
           <div class="testimonial">
             <div class="testimonial__speech-bubble">
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A hic
-                itaque esse temporibus ut ab magnam eaque dicta ipsam provident
-                libero non, ex porro, autem nemo reprehenderit earum incidunt
-                ducimus!
+                "He's confident in collaboration and he's the motivation to be
+                active in acquiring the knowledge he believes he needs."
               </p>
-              <p class="name"><a href="">BruceJo</a> / UDS</p>
+              <p class="name">
+                <a href="https://github.com/sanghyeok-han">Sanghyeok</a> / Ajou
+                University
+              </p>
             </div>
             <img
-              src="./images/people/person.jpg"
+              src="./images/people/sanghyeok.jpeg"
               alt="People"
               class="testimonial__avatar"
             />
