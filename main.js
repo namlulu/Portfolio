@@ -20,7 +20,15 @@ navbarMenu.addEventListener('click', (event) => {
   if (link === null) {
     return;
   }
+
+  navbarMenu.classList.remove('open');
   scrollIntoView(link);
+});
+
+// navbar toggle
+const navbarToggleBtn = document.querySelector('.navbar__toggle-button');
+navbarToggleBtn.addEventListener('click', () => {
+  navbarMenu.classList.toggle('open');
 });
 
 // Contact me 클릭 시 해당 요소로 이동
@@ -61,6 +69,14 @@ workBtnContainer.addEventListener('click', (event) => {
   if (filter === null) {
     return;
   }
+
+  // Remove selection and select new one
+  const active = document.querySelector('.category__btn.selected');
+  active.classList.remove('selected');
+
+  const target =
+    event.target.nodeName === 'BUTTON' ? event.target : event.target.parentNode;
+  target.classList.add('selected');
 
   projectContainer.classList.add('anim-out');
   setTimeout(() => {
