@@ -33,13 +33,13 @@
         <a href="">Sean</a>
       </div>
       <div class="navbar__menu">
-        <ul class="navbar__menu">
+        <ul class="navbar__menus">
           <li class="navbar__menu__item active" data-link="#home">Home</li>
           <li class="navbar__menu__item" data-link="#about">About</li>
           <li class="navbar__menu__item" data-link="#skills">Skills</li>
           <li class="navbar__menu__item" data-link="#work">My work</li>
           <li class="navbar__menu__item" data-link="#testimonials">
-            testimonials
+            Testimonials
           </li>
           <li class="navbar__menu__item" data-link="#contact">Contact</li>
         </ul>
@@ -232,7 +232,7 @@
         <h1>My work</h1>
         <h3>Projects</h3>
         <div class="work__categories">
-          <button class="category__btn active" data-filter="*">
+          <button class="category__btn selected" data-filter="*">
             All<span class="category__count">6</span>
           </button>
           <button class="category__btn" data-filter="front-end">
@@ -316,6 +316,9 @@
             class="project"
             target="blank"
             data-type="front-end"
+            onclick="(function(){
+              alert(`Can't share result by UDS policy`);
+          })()"
           >
             <img
               src="./images/projects/particleCounter.png"
