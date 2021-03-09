@@ -92,7 +92,9 @@ workBtnContainer.addEventListener('click', (event) => {
   }, 300);
 });
 
-// IntersectionObserver
+// collect every elements
+// IntersectionObserver observing
+// active menu
 
 const sectionIds = [
   '#home',
@@ -109,6 +111,7 @@ const navItems = sectionIds.map((id) =>
 );
 let selectedNavIndex = 0;
 let selectedNavItem = navItems[0];
+
 function selectNavItem(selected) {
   selectedNavItem.classList.remove('active');
   selectedNavItem = selected;
@@ -129,6 +132,7 @@ const observerOptions = {
 
 const observerCallback = (entries, observer) => {
   entries.forEach((entry) => {
+    console.log(entry);
     if (!entry.isIntersecting && entry.intersectionRatio > 0) {
       const index = sectionIds.indexOf(`#${entry.target.id}`);
 
@@ -148,7 +152,7 @@ window.addEventListener('wheel', () => {
   if (window.scrollY === 0) {
     selectedNavIndex = 0;
   } else if (
-    window.scrollY + window.innerHeight ===
+    Math.round(window.scrollY + window.innerHeight) >=
     document.body.clientHeight
   ) {
     selectedNavIndex = navItems.length - 1;
