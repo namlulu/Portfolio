@@ -166,6 +166,7 @@ button {
   height: 250px;
   border-radius: 50%;
   border: 2px solid var(--color-light-white);
+  object-fit: cover;
 }
 
 .home__title,
@@ -352,8 +353,10 @@ etc {
 
 .category__btn.selected .category__count,
 .category__btn:hover .category__count {
+  position: relative;
   opacity: 1;
   top: 0;
+  left: 6px;
 }
 
 .category__count {
@@ -366,7 +369,7 @@ etc {
   height: 24px;
   line-height: 24px;
   top: -20px;
-  right: 16px;
+  left: 6px;
   opacity: 0;
   transition: all var(--animation-duration) ease-in;
 }

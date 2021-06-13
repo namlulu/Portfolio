@@ -132,10 +132,8 @@ const observerOptions = {
 
 const observerCallback = (entries, observer) => {
   entries.forEach((entry) => {
-    console.log(entry);
     if (!entry.isIntersecting && entry.intersectionRatio > 0) {
       const index = sectionIds.indexOf(`#${entry.target.id}`);
-
       if (entry.boundingClientRect.y < 0) {
         selectedNavIndex = index + 1;
       } else {
