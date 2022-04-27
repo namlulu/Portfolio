@@ -1,9 +1,10 @@
 {
-  "name": "nuxt-resume-template",
+  "name": "namlulu_portfolio",
   "version": "1.0.0",
-  "description": "My awesome Nuxt.js project",
-  "author": "Kousika",
+  "description": "Namlulu Portfolio",
+  "author": "Namlulu",
   "private": true,
+  "license": "beerware",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",

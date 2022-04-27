@@ -135,7 +135,7 @@ export default {
     { name: 'Twitter', link: 'https://twitter.com/kousika13' },
     { name: 'Email', link: 'mailto:g.kousika@gmail.com' }
   ],
-  HIRE_ME: 'mailto:g.kousika@gmail.com',
+  CONTACT_ME: 'mailto:g.tmddnr3163@gmail.com',
   CONNECT_VIA_LINKEDIN: 'https://in.linkedin.com/in/kousika-ganesan',
   GITHUB_LINK: 'https://github.com/kousikaganesan',
   PROJECTS: [

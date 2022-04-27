@@ -1,7 +1,7 @@
 <template>
   <v-parallax
     height="100vh"
-    :src="require('@/assets/images/dark-background.png')"
+    :src="require('@/assets/images/background.jpg')"
     alt="Banner"
   >
     <!-- TODO: add v-waypoint="{ active: true, callback: onWaypoint }" -->
@@ -11,33 +11,29 @@
           class="banner d-flex justify-center align-center rellax flex-column"
         >
           <div class="banner-text">Hi, I am</div>
-          <div class="full-name">Kousika Ganesan</div>
+          <h1 class="full-name">Namlulu</h1>
           <vue-typed-js
             class="justify-center"
             :loop="true"
             :type-speed="35"
             :back-speed="35"
-            :strings="[
-              'Full stack developer',
-              'Javascript enthusiast',
-              'Avid learner'
-            ]"
+            :strings="['Frontend developer.', 'Backend developer.', 'DevOps.']"
           >
             <div class="sub-text">
               I'm a <span class="typing font-weight-bold"></span>
             </div>
           </vue-typed-js>
           <v-btn
+            elevation="0"
             class="ma-2"
+            color="white"
+            data-aos="fade-up"
             large
             outlined
-            :href="mail"
             target="_blank"
-            color="white"
-            elevation="0"
-            data-aos="fade-up"
+            :href="email"
           >
-            Hire me
+            Contact me
           </v-btn>
         </div>
         <div class="scroll-gif">
@@ -53,7 +49,7 @@ import Constants from '@/constants'
 export default {
   data() {
     return {
-      mail: Constants.HIRE_ME
+      email: Constants.CONTACT_ME
     }
   }
 }

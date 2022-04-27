@@ -6,8 +6,7 @@ export default {
    ** Headers of the page
    */
   head: {
-    titleTemplate: 'Kousika Ganesan',
-    title: 'Kousika Ganesan - Fullstack Developer',
+    titleTemplate: 'Namlulu - Excellent Software developer',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -15,54 +14,27 @@ export default {
         name: 'description',
         hid: 'description',
         content:
-          'Experienced in the field of web and hybrid app development using JavaScript and its frameworks. Proficient in building scalable micro services as well.'
+          'Experienced in the field of web using JavaScript / Java and its frameworks. Proficient in building scalable micro services as well.'
       },
       {
         name: 'keywords',
-        content:
-          'Fullstack Developer, Remote Engineer, Software developer, app development'
+        content: 'Frontend developer, Backend developer, DevOps'
       },
       {
         name: 'og:title',
-        content: 'Kousika Ganesan - Fullstack Developer'
+        content: 'Namlulu - Software developer'
       },
       {
         name: 'og:description',
         content:
-          'Experienced in the field of web and hybrid app development using JavaScript and its frameworks. Proficient in building scalable micro services as well.'
+          'Experienced in the field of web using JavaScript / Java and its frameworks. Proficient in building scalable micro services as well.'
       },
       { name: 'og:type', content: 'website' },
-      { name: 'og:url', content: 'https://kousikaganesan.github.io/' },
+      { name: 'og:url', content: 'https://namlulu.github.io/Portfolio' },
       {
         name: 'og:image',
         content:
           'https://user-images.githubusercontent.com/20679183/88207143-fceac500-cc6c-11ea-8b72-54b2b8255ef7.png'
-      },
-      {
-        name: 'twitter:card',
-        content: 'summary'
-      },
-      {
-        name: 'twitter:site',
-        content: 'Kousika Ganesan'
-      },
-      {
-        name: 'twitter:title',
-        content: 'Kousika Ganesan - Fullstack Developer'
-      },
-      {
-        name: 'twitter:description',
-        content:
-          'Experienced in the field of web and hybrid app development using JavaScript and its frameworks. Proficient in building scalable micro services as well.'
-      },
-      {
-        name: 'twitter:image',
-        content:
-          'https://user-images.githubusercontent.com/20679183/88207143-fceac500-cc6c-11ea-8b72-54b2b8255ef7.png'
-      },
-      {
-        name: 'twitter:image:alt',
-        content: 'Kousika Ganesan Logo'
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
@@ -144,7 +116,7 @@ export default {
   },
   pwa: {
     manifest: {
-      name: 'Kousika Ganesan'
+      name: 'Namlulu'
     }
   },
   /*
