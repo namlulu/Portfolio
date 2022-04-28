@@ -8,7 +8,7 @@ export default {
   ],
   SKILLS: [
     {
-      name: 'set1',
+      name: '프론트엔드',
       items: [
         {
           name: 'Vue',
@@ -23,12 +23,12 @@ export default {
           image: 'angular.png'
         },
         {
-          name: 'Ionic',
-          image: 'ionic.png'
+          name: 'svelte',
+          image: 'svelte.png'
         },
         {
-          name: 'Redux',
-          image: 'redux.png'
+          name: 'Next',
+          image: 'nextjs.png'
         },
         {
           name: 'Nuxt',
@@ -37,65 +37,65 @@ export default {
       ]
     },
     {
-      name: 'set2',
+      name: '백엔드',
       items: [
-        {
-          name: 'Vuetify',
-          image: 'vuetify.png'
-        },
-        {
-          name: 'Ant Design',
-          image: 'antdesign.svg'
-        },
-        {
-          name: 'React Material-UI',
-          image: 'reactmaterial.png'
-        },
         {
           name: 'Node',
           image: 'nodejs.webp'
-        },
-        {
-          name: 'Mongo DB',
-          image: 'mongodb.png'
-        },
-        {
-          name: 'Nginx',
-          image: 'nginx.svg'
-        }
-      ]
-    },
-    {
-      name: 'set3',
-      items: [
-        {
-          name: 'React Native',
-          image: 'react.svg'
-        },
-        {
-          name: 'PM2',
-          image: 'pm2.png'
-        },
-        {
-          name: 'Wit.ai',
-          image: 'witai.png'
         },
         {
           name: 'Typescript',
           image: 'typescript.png'
         },
         {
-          name: 'Scss',
-          image: 'scss.png'
+          name: 'Express',
+          image: 'express.png'
         },
         {
-          name: 'D3.js',
-          image: 'd3.png'
+          name: 'Nest',
+          image: 'nestjs.svg'
+        },
+        {
+          name: 'Java',
+          image: 'java.png'
+        },
+        {
+          name: 'Spring boot',
+          image: 'springboot.png'
         }
       ]
     },
     {
-      name: 'set4',
+      name: '인프라',
+      items: [
+        {
+          name: 'Nginx',
+          image: 'nginx.svg'
+        },
+        {
+          name: 'PM2',
+          image: 'pm2.png'
+        },
+        {
+          name: 'Mongo DB',
+          image: 'mongodb.png'
+        },
+        {
+          name: 'Docker',
+          image: 'docker.png'
+        },
+        {
+          name: 'Kubernetes',
+          image: 'kubernetes.png'
+        },
+        {
+          name: 'MySQL',
+          image: 'mysql.png'
+        }
+      ]
+    },
+    {
+      name: '기타',
       items: [
         {
           name: 'Gitlab',
@@ -118,8 +118,8 @@ export default {
           image: 'jira.svg'
         },
         {
-          name: 'Trello',
-          image: 'trello.png'
+          name: 'Bamboo',
+          image: 'bamboo.png'
         }
       ]
     }

@@ -10,17 +10,17 @@
         <div
           class="banner d-flex justify-center align-center rellax flex-column"
         >
-          <div class="banner-text">Hi, I am</div>
+          <div class="banner-text">소개합니다</div>
           <h1 class="full-name">Namlulu</h1>
           <vue-typed-js
             class="justify-center"
             :loop="true"
             :type-speed="35"
             :back-speed="35"
-            :strings="['Frontend developer.', 'Backend developer.', 'DevOps.']"
+            :strings="['웹 개발자', '앱 개발자', '데브웁스']"
           >
             <div class="sub-text">
-              I'm a <span class="typing font-weight-bold"></span>
+              저는 <span class="typing font-weight-bold"></span> 입니다.
             </div>
           </vue-typed-js>
           <v-btn
@@ -33,7 +33,7 @@
             target="_blank"
             :href="email"
           >
-            Contact me
+            이메일 보내기
           </v-btn>
         </div>
         <div class="scroll-gif">
