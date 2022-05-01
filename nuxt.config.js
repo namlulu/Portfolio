@@ -38,7 +38,11 @@ export default {
       {
         name: 'og:image',
         content:
-          'https://user-images.githubusercontent.com/20679183/88207143-fceac500-cc6c-11ea-8b72-54b2b8255ef7.png'
+          'https://avatars.githubusercontent.com/u/60912642?s=400&u=85f5214a3f5234494f39b0619ab5c6ed8427aaae&v=4'
+      },
+      {
+        name: 'google-site-verification',
+        content: 'Tejxa2jUd4qoP0nqt0tZpMWb0WzqyetbFIAz7aqindU'
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
