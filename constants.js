@@ -6,6 +6,49 @@ export default {
     { name: 'Works', tagLine: 'Only the finest!' },
     { name: 'Contact', tagLine: "Don't hesitate!" }
   ],
+  Area: [
+    {
+      name: 'Web',
+      description: `어떤 브라우저라도 문제없이 동작하는 반응형 웹 서비스를 구축할 수 있습니다. 
+      2-tier, 3-tier 아키텍처를 설계하고 개발할 수 있습니다.`,
+      logo: 'web.png'
+    },
+    {
+      name: 'Desktop App.',
+      description:
+        'Electron을 활용하여 PC 운영체제 (window, linux, macOS)에서 문제없이 구동할 수 있는 데스크탑 어플리케이션을 개발할 수 있습니다.',
+      logo: 'desktop.png'
+    },
+    {
+      name: 'Mobile App.',
+      description:
+        'React Native를 활용하여 Mobile 운영체제(android, ios)에서 문제없이 구동할 수 있는 모바일 어플리케이션을 개발할 수 있습니다.',
+      logo: 'mobileapp.png'
+    }
+  ],
+  CAREER: [
+    {
+      company: 'GS RETAIL',
+      duration: '2022 ~ NOW',
+      description: `GS 리테일이 가지고 있는 서비스 개편 및 고도화 작업에 참여하고 있습니다. 
+        최근에는 GS Fresh Mall 고도화 작업에 참여하고 있습니다.`,
+      logo: 'gsretail.png'
+    },
+    {
+      company: 'BridgeCode',
+      duration: '2021 ~ 2022',
+      description: `세무·회계 플랫폼인 택슬리 개발에 참여했습니다. 
+      전문가를 찾아볼 수 있는 전문가 찾기, 질문 답변 게시판을 개편하였고 의뢰인가 전문가가 상담을 진행할 수 있는 상담방을 개발하였습니다.`,
+      logo: 'bridgecode.png'
+    },
+    {
+      company: 'UDS',
+      duration: '2020 ~ 2021',
+      description: `반도체 생산 모니터링 시스템 (Udap) 개발에 참여했습니다. 
+        특히, Plotly를 활용하여 Wafer를 3D로 볼 수 있는 Map과 반도체 파편을 모니터링할 수 있는 컴포넌트를 개발하였습니다.`,
+      logo: 'uds.png'
+    }
+  ],
   SKILLS: [
     {
       name: '프론트엔드',
@@ -125,75 +168,72 @@ export default {
     }
   ],
   SOCIAL_LINKS: [
-    { name: 'Linkedin', link: 'https://in.linkedin.com/in/kousika-ganesan' },
     {
       name: 'Stackoverflow',
-      link: 'https://stackoverflow.com/users/5622324/kousika-ganesan'
+      link: 'https://stackoverflow.com/users/18886824/namlulu'
     },
-    { name: 'Medium', link: 'https://medium.com/@kousika' },
-    { name: 'GitHub', link: 'https://github.com/kousikaganesan' },
-    { name: 'Twitter', link: 'https://twitter.com/kousika13' },
+    {
+      name: 'Blog',
+      link: 'https://dsbvzxvjiboirewbg.tistory.com/'
+    },
+    { name: 'GitHub', link: 'https://github.com/namlulu' },
+    {
+      name: 'Linkedin',
+      link: 'https://www.linkedin.com/in/seung-wook-lee-4a3a3410b/'
+    },
+    { name: 'Instagram', link: 'https://www.instagram.com/lllslw/' },
     { name: 'Email', link: 'mailto:g.kousika@gmail.com' }
   ],
   CONTACT_ME: 'mailto:g.tmddnr3163@gmail.com',
   CONNECT_VIA_LINKEDIN: 'https://in.linkedin.com/in/kousika-ganesan',
-  GITHUB_LINK: 'https://github.com/kousikaganesan',
+  GITHUB_LINK: 'https://github.com/namlulu',
   PROJECTS: [
     {
-      title: 'COVID-19 Tracker',
+      title: '복싱 영상 공유 사이트',
       isConfidential: false,
-      techStack: ['React JS', 'Redux'],
-      cover: 'covid19.png',
+      techStack: ['Node JS', 'Mondgo DB', 'AWS', 'Heroku'],
+      cover: 'box.jpg',
       description:
-        'A real time application to track the COVID-19 cases around the world. I designed and developed this application as an open source contribution',
-      url: 'https://github.com/kousikaganesan/covid-19-tracker'
+        '복싱 영상을 공유하는 사이트입니다. 댓글 작성 및 수정 기능과 검색 기능도 있습니다.',
+      url: 'https://github.com/namlulu/wetube'
     },
     {
-      title: 'Women Safety App',
-      techStack: ['React Native', 'Redux', 'Node JS', 'Mongo DB'],
-      isConfidential: true,
-      description: `It is a React native app where I worked on designing 
-      auth and navigation screens. Also, worked on the complete state 
-      management of the auth flow and third party integrations to provide 
-      real time live updates to the user.`,
-      cover: 'women-safety.jpeg'
+      title: '채팅 서비스',
+      techStack: ['React', 'Netlify', 'Node JS', 'MySQL', 'Heroku'],
+      isConfidential: false,
+      description: `유저들끼리 실시간으로 채팅할 수 있는 서비스입니다.`,
+      cover: 'chat.jpg',
+      url: 'https://github.com/namlulu/NamRoom-BE'
     },
     {
-      title: 'My Portfolio',
+      title: '포트폴리오',
       techStack: ['Nuxt JS'],
       cover: 'portfolio-design.png',
-      description:
-        'This is the initial version of portfolio to display my work. Developed this project in a short span of time. I have planned to add more sections and micro interactions in the future',
+      description: `저의 경험과 작업물들을 기록하는 포트폴리오 사이트입니다.`,
       isConfidential: false,
-      url: 'https://github.com/kousikaganesan/nuxt-resume-template'
+      url: 'https://github.com/namlulu/Portfolio'
     },
     {
-      title: 'A Productive App',
-      techStack: ['React Native', 'Redux', 'Node JS', 'Mongo DB'],
+      title: 'Taxly',
+      techStack: ['Nuxt', 'Node JS', 'Express', 'MySQL', 'AWS'],
       isConfidential: true,
-      description: `It is a web application built on React webpack which 
-      syncs the Google and Microsoft calendar events. I worked on several parts 
-      of the app including setting up the initial infrastructure to enable the 
-      integration with third-party apps like MS Outlook
-      calendar, Google calendar, Google Drive, Gmail.etc. Also, worked on implementing 
-      complex timeline-like feature on the react app. Handled all the integration 
-      with the Redux store.`,
-      cover: 'notes.jpeg'
+      description: `세무·회계 플랫폼인 택슬리 고도화 작업에 참여했습니다. 상담방, 전문가 찾기, 질문답변, 뉴스 등 다양한
+      페이지와 기능, 컴포넌트 등을 개발하였습니다.`,
+      cover: 'taxly.jpg'
     },
     {
-      title: 'Blog Site',
-      techStack: ['Angular', 'Node JS', 'Mongo DB'],
-      isConfidential: false,
-      description: `The application was developed in a mission to develop an online publishing platform where users can post blogs, comments and like the posts with simple yet powerful UI`,
-      cover: 'blog.jpg',
-      url: 'https://github.com/kousikaganesan/blog-site'
-    },
-    {
-      title: 'Company’s Saas Product',
-      techStack: ['Vue', 'Vuex', 'Node JS', 'Mongo DB'],
+      title: 'Grafana Plugins',
+      techStack: ['React', 'Redux'],
       isConfidential: true,
-      description: `Worked on setting up the initial infrastructure for the front end and backend project as well. This is a Saas app that my company is working on. The front end uses a combination of Vue + Vuex. This was a side project that I was working on top of the regular work hours and sometimes did full time as well.`,
-      cover: 'saas.jpg'
+      description: `Grafana 플랫폼에서 동작하는 Plugin들을 개발하였습니다. 반도체 Wafer를 3D로 표현하는 플러그인과 반도체 파편을 모니터링할 수 있는 플러그인을 개발하였습니다.`,
+      cover: 'grafana_plugin.jpg'
+    },
+    {
+      title: '회사 소개 사이트',
+      techStack: ['Jekyll', 'Jquery'],
+      isConfidential: true,
+      description: `uds.ai 도메인 주소를 가진 회사 소개 홈페이지입니다. 블로그 포스팅 및 지도 API, 로그인 기능을 보유하고 있습니다.`,
+      cover: 'uds.ai.jpg'
     }
   ]
 }

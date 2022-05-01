@@ -2,7 +2,8 @@
   <v-container fluid>
     <Home />
     <About />
-    <Skills />
+    <Career />
+    <Area />
     <Hireme />
     <Works />
     <Contact />
@@ -12,7 +13,8 @@
 <script>
 import Home from '@/components/Home'
 import About from '@/components/About'
-import Skills from '@/components/Skills'
+import Career from '@/components/Career'
+import Area from '@/components/Area'
 import Works from '@/components/Works'
 import Contact from '@/components/Contact'
 import Hireme from '@/components/Hireme'
@@ -21,10 +23,11 @@ export default {
   components: {
     Home,
     About,
-    Skills,
+    Career,
+    Area,
+    Hireme,
     Works,
-    Contact,
-    Hireme
+    Contact
   },
   data() {
     return {

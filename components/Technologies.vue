@@ -2,12 +2,19 @@
   <div class="technologies">
     <div class="technologies-title d-flex justify-center align-center">
       애용하는 <img class="heart" src="@/assets/images/heart.png" />
-      <transition
-        v-for="(skill, index) in skillNames"
-        :key="skill"
-        name="slide-fade"
-      >
-        <span v-show="index === currentIndex">{{ skill }} 기술 </span>
+      <transition name="fade" mode="out-in" tag="div">
+        <div v-if="currentIndex === 0" :key="currentName">
+          {{ currentName }} 기술
+        </div>
+        <div v-if="currentIndex === 1" :key="currentName">
+          {{ currentName }} 기술
+        </div>
+        <div v-if="currentIndex === 2" :key="currentName">
+          {{ currentName }} 기술
+        </div>
+        <div v-if="currentIndex === 3" :key="currentName">
+          {{ currentName }} 기술
+        </div>
       </transition>
     </div>
     <carousel
@@ -97,19 +104,12 @@ export default {
   }
 }
 
-.slide-fade-enter-active {
-  transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1);
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
 }
-.slide-fade-leave-active {
-  transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1);
-}
-.slide-fade-enter {
-  transform: translateY(-5px) translateX(-5px);
-  opacity: 0;
-}
-.slide-fade-leave-to
-/* .slide-fade-leave-active below version 2.1.8 */ {
-  transform: translateY(5px) translateX(5px);
+.fade-enter,
+.fade-leave-to {
   opacity: 0;
 }
 </style>

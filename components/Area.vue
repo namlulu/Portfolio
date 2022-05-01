@@ -1,9 +1,27 @@
 <template>
   <v-container id="skills" fluid class="skills portfolio-container">
     <div>
-      <div class="section-title">What I do</div>
+      <div class="section-title">Area</div>
       <v-row no-gutters class="px-5">
-        <v-col class="text-center px-4" cols="12" sm="4">
+        <v-col
+          v-for="area in areas"
+          :key="area.name"
+          class="text-center px-4"
+          cols="12"
+          sm="4"
+        >
+          <img
+            :alt="area.name"
+            :src="require(`@/assets/images/${area.logo}`)"
+            class="skill-img"
+            data-aos="fade-up"
+          />
+          <div class="skill-title" data-aos="fade-up">{{ area.name }}</div>
+          <div class="skill-description" data-aos="fade-up">
+            {{ area.description }}
+          </div>
+        </v-col>
+        <!-- <v-col class="text-center px-4" cols="12" sm="4">
           <img
             alt="frontend"
             class="skill-img"
@@ -41,14 +59,22 @@
             Build easily maintainable mobile apps that run on Android, IOS and
             web with single code implementation.
           </div>
-        </v-col>
+        </v-col> -->
       </v-row>
     </div>
   </v-container>
 </template>
 
 <script>
-export default {}
+import Constants from '@/constants'
+
+export default {
+  data() {
+    return {
+      areas: Constants.Area
+    }
+  }
+}
 </script>
 
 <style lang="scss" scoped>

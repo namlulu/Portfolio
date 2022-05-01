@@ -2,12 +2,12 @@
   <v-parallax
     height="200"
     :src="require('@/assets/images/hire-me.jpg')"
-    alt="Hire me"
+    alt="Contact me"
   >
     <div class="d-flex hire-me px-4 hire-me-content">
       <div class="content">
         <div class="help" data-aos="fade-right">
-          I'm open to collaborating for your upcoming projects!
+          같이 만들고 싶은 프로젝트가 있으면 연락주세요!
         </div>
         <v-btn
           class="ma-2"
@@ -19,7 +19,7 @@
           target="_blank"
           data-aos="fade-right"
         >
-          Hire me
+          이메일 보내기
         </v-btn>
       </div>
     </div>
@@ -32,7 +32,7 @@ import Constants from '@/constants'
 export default {
   data() {
     return {
-      mail: Constants.HIRE_ME
+      mail: Constants.CONTACT_ME
     }
   }
 }

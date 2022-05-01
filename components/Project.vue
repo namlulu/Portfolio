@@ -63,8 +63,8 @@
             </p>
             <p>{{ project.description }}</p>
             <div v-if="project.isConfidential" class="pb-4">
-              This project comes under Squashapps pvt ltd and hence its name is
-              confidential.
+              이 프로젝트는 개인 프로젝트가 아닌, 기업용 프로젝트입니다.
+              <br />소스 코드를 공유하지 않습니다.
             </div>
             <v-btn
               class="my-2 view-project"
