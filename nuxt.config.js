@@ -1,10 +1,11 @@
 import colors from 'vuetify/es5/util/colors'
 
 export default {
-  target: 'static',
+  target: 'static', // 정적 웹사이트임을 명시
   router: {
-    base: '/Portfolio/'
+    base: '/Portfolio/' // github repository 이름 넣기
   },
+  ssr: false,
   /*
    ** Headers of the page
    */
