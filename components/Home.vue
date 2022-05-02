@@ -17,7 +17,7 @@
             :loop="true"
             :type-speed="35"
             :back-speed="35"
-            :strings="['웹 개발자', '앱 개발자', '데브웁스']"
+            :strings="['웹 개발자', '앱 개발자', '데브옵스']"
           >
             <div class="sub-text">
               저는 <span class="typing font-weight-bold"></span> 입니다.

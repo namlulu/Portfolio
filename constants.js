@@ -9,7 +9,7 @@ export default {
   Area: [
     {
       name: 'Web',
-      description: `어떤 브라우저라도 문제없이 동작하는 반응형 웹 서비스를 구축할 수 있습니다. 
+      description: `어떤 브라우저라도 문제없이 동작하는 반응형 웹 서비스를 구축할 수 있습니다.
       2-tier, 3-tier 아키텍처를 설계하고 개발할 수 있습니다.`,
       logo: 'web.png'
     },
@@ -30,21 +30,21 @@ export default {
     {
       company: 'GS RETAIL',
       duration: '2022 ~ NOW',
-      description: `GS 리테일이 가지고 있는 서비스 개편 및 고도화 작업에 참여하고 있습니다. 
+      description: `GS 리테일이 가지고 있는 서비스 개편 및 고도화 작업에 참여하고 있습니다.
         최근에는 GS Fresh Mall 고도화 작업에 참여하고 있습니다.`,
       logo: 'gsretail.png'
     },
     {
       company: 'BridgeCode',
       duration: '2021 ~ 2022',
-      description: `세무·회계 플랫폼인 택슬리 개발에 참여했습니다. 
+      description: `세무·회계 플랫폼인 택슬리 개발에 참여했습니다.
       전문가를 찾아볼 수 있는 전문가 찾기, 질문 답변 게시판을 개편하였고 의뢰인가 전문가가 상담을 진행할 수 있는 상담방을 개발하였습니다.`,
       logo: 'bridgecode.png'
     },
     {
       company: 'UDS',
       duration: '2020 ~ 2021',
-      description: `반도체 생산 모니터링 시스템 (Udap) 개발에 참여했습니다. 
+      description: `반도체 생산 모니터링 시스템 (Udap) 개발에 참여했습니다.
         특히, Plotly를 활용하여 Wafer를 3D로 볼 수 있는 Map과 반도체 파편을 모니터링할 수 있는 컴포넌트를 개발하였습니다.`,
       logo: 'uds.png'
     }
@@ -208,7 +208,7 @@ export default {
     {
       title: '포트폴리오',
       techStack: ['Nuxt JS'],
-      cover: 'portfolio-design.png',
+      cover: 'portfolio.jpg',
       description: `저의 경험과 작업물들을 기록하는 포트폴리오 사이트입니다.`,
       isConfidential: false,
       url: 'https://github.com/namlulu/Portfolio'
