@@ -27,6 +27,7 @@
     "@neneos/nuxt-animate.css": "0.0.1",
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/gtm": "^2.4.0",
     "@nuxtjs/pwa": "^3.0.0-0",
     "aos": "^2.3.4",
     "nuxt": "^2.0.0",
