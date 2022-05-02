@@ -89,12 +89,16 @@ export default {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
+    '@nuxtjs/gtm',
     // '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv',
     '@neneos/nuxt-animate.css',
     'vue-scrollto/nuxt'
   ],
+  gtm: {
+    id: 'GTM-THBKKFM'
+  },
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
