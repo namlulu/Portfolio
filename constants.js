@@ -30,8 +30,7 @@ export default {
     {
       company: 'GS RETAIL',
       duration: '2022 ~ NOW',
-      description: `GS 리테일이 가지고 있는 서비스 개편 및 고도화 작업에 참여하고 있습니다.
-        최근에는 GS Fresh Mall 고도화 작업에 참여하고 있습니다.`,
+      description: `GS Fresh 통합 프로젝트에 참여했으며, 모바일 앱 개발팀 소속으로 GS Fresh 앱과 우리동네 GS 앱을 운영하면서 고도화 하는 업무를 맡고 있습니다.`,
       logo: 'gsretail.png'
     },
     {
@@ -62,20 +61,20 @@ export default {
           image: 'react.svg'
         },
         {
-          name: 'Angular',
-          image: 'angular.png'
+          name: 'ReactNative',
+          image: 'react.svg'
         },
         {
-          name: 'svelte',
-          image: 'svelte.png'
+          name: 'Nuxt',
+          image: 'nuxt.svg'
         },
         {
           name: 'Next',
           image: 'nextjs.png'
         },
         {
-          name: 'Nuxt',
-          image: 'nuxt.svg'
+          name: 'Flutter',
+          image: 'flutter.svg'
         }
       ]
     },
@@ -189,21 +188,19 @@ export default {
   GITHUB_LINK: 'https://github.com/namlulu',
   PROJECTS: [
     {
-      title: '복싱 영상 공유 사이트',
-      isConfidential: false,
-      techStack: ['Node JS', 'Mondgo DB', 'AWS', 'Heroku'],
-      cover: 'box.jpg',
+      title: '우리동네 GS',
+      isConfidential: true,
+      techStack: ['Flutter', 'Next.js', 'Spring boot'],
+      cover: 'gs25.jpg',
       description:
-        '복싱 영상을 공유하는 사이트입니다. 댓글 작성 및 수정 기능과 검색 기능도 있습니다.',
-      url: 'https://github.com/namlulu/wetube'
+        '편의점 & 마트 물건을 예약하고 픽업할 수 있는 어플리케이션입니다. 데이터 수집 및 앱 화면 개발을 보조하고 있습니다.'
     },
     {
-      title: '채팅 서비스',
-      techStack: ['React', 'Netlify', 'Node JS', 'MySQL', 'Heroku'],
-      isConfidential: false,
-      description: `유저들끼리 실시간으로 채팅할 수 있는 서비스입니다.`,
-      cover: 'chat.jpg',
-      url: 'https://github.com/namlulu/NamRoom-BE'
+      title: 'GS Fresh',
+      techStack: ['Flutter', 'Vue.js', 'Spring boot'],
+      isConfidential: true,
+      description: `홈쇼핑 & 마트 물건을 주문할 수 있는 이커머스 서비스입니다. 전시영역 웹/앱 개발과 서버 개발을 맡고 있습니다.`,
+      cover: 'gsfresh.jpg'
     },
     {
       title: '포트폴리오',
