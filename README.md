@@ -3,6 +3,9 @@
 
 https://namlulu.github.io/Portfolio/
 
+❯ node -v
+v16.13.0
+
 ### 🛠 Build Setup
 
 ```bash
