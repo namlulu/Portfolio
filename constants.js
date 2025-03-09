@@ -30,7 +30,7 @@ export default {
     {
       company: 'GS RETAIL',
       duration: '2024 ~ NOW',
-      description: `AWS 기반 EKS 클러스터 운영 및 인프라 모니터링, 클라우드 비용 효율화 및 장애 대응, 시스템 모니터링 개선 및 서비스 최적화 진행`,
+      description: `AWS 기반 EKS 클러스터 GSSHOP 운영 및 인프라 모니터링, 클라우드 비용 효율화 및 장애 대응, 서비스 최적화 및 추가 기능 개발 진행`,
       logo: 'gsretail.png'
     },
     {
@@ -48,7 +48,7 @@ export default {
     {
       company: 'BridgeCode',
       duration: '2021 ~ 2022',
-      description: `세무·회계 플랫폼인 택슬리 개발에 참여, Nuxt & Express 기반의 전문가 찾기, 질문 답변 게시판 개발, 상담방을 개발.`,
+      description: `세무·회계 플랫폼인 택슬리 개발에 참여, Nuxt & Express 기반의 전문가 찾기, 질문 답변 게시판, 상담방 개발.`,
       logo: 'bridgecode.png'
     },
     {
