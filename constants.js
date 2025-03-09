@@ -22,29 +22,39 @@ export default {
     {
       name: 'Mobile App.',
       description:
-        'React Native를 활용하여 Mobile 운영체제(android, ios)에서 문제없이 구동할 수 있는 모바일 어플리케이션을 개발할 수 있습니다.',
+        'Flutter를 활용하여 Mobile 운영체제(android, ios)에서 문제없이 구동할 수 있는 모바일 어플리케이션을 개발할 수 있습니다.',
       logo: 'mobileapp.png'
     }
   ],
   CAREER: [
     {
       company: 'GS RETAIL',
-      duration: '2022 ~ NOW',
-      description: `GS Fresh 통합 프로젝트에 참여했으며, 모바일 앱 개발팀 소속으로 GS Fresh 앱과 우리동네 GS 앱을 운영하면서 고도화 하는 업무를 맡고 있습니다.`,
+      duration: '2024 ~ NOW',
+      description: `AWS 기반 EKS 클러스터 운영 및 인프라 모니터링, 클라우드 비용 효율화 및 장애 대응, 시스템 모니터링 개선 및 서비스 최적화 진행`,
+      logo: 'gsretail.png'
+    },
+    {
+      company: 'GS RETAIL',
+      duration: '2023 ~ 2024',
+      description: `Flutter 및 웹뷰 기반 앱 개발, 우리동네 GS 앱의 본인인증 및 주문서 개발, O4O(Online for Offline) 서비스 개선 및 유지보수`,
+      logo: 'gsretail.png'
+    },
+    {
+      company: 'GS RETAIL',
+      duration: '2022 ~ 2023',
+      description: `Spring Framework 기반 API 개발, 이커머스 상품 전시 API 개발 및 화면 (JSP) 구성, 서비스별 맞춤형 상품 전시 로직 개발.`,
       logo: 'gsretail.png'
     },
     {
       company: 'BridgeCode',
       duration: '2021 ~ 2022',
-      description: `세무·회계 플랫폼인 택슬리 개발에 참여했습니다.
-      전문가를 찾아볼 수 있는 전문가 찾기, 질문 답변 게시판을 개편하였고 의뢰인가 전문가가 상담을 진행할 수 있는 상담방을 개발하였습니다.`,
+      description: `세무·회계 플랫폼인 택슬리 개발에 참여, Nuxt & Express 기반의 전문가 찾기, 질문 답변 게시판 개발, 상담방을 개발.`,
       logo: 'bridgecode.png'
     },
     {
       company: 'UDS',
       duration: '2020 ~ 2021',
-      description: `반도체 생산 모니터링 시스템 (Udap) 개발에 참여했습니다.
-        특히, Plotly를 활용하여 Wafer를 3D로 볼 수 있는 Map과 반도체 파편을 모니터링할 수 있는 컴포넌트를 개발하였습니다.`,
+      description: `반도체 생산 모니터링 시스템 (Udap) 개발에 참여, Plotly JS를 활용하여 반도체 wafer를 시각화할 수 있는 Grafana Plugin 개발, Grafana Angular 기반 소스를 React로 마이그레이션.`,
       logo: 'uds.png'
     }
   ],
