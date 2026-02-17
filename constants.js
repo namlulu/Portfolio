@@ -30,7 +30,7 @@ export default {
     {
       company: 'GS RETAIL',
       duration: '2024 ~ NOW',
-      description: `AWS 기반 EKS 클러스터 GSSHOP 운영 및 인프라 모니터링, 클라우드 비용 효율화 및 장애 대응, 서비스 최적화 및 추가 기능 개발 진행`,
+      description: `AWS 기반 EKS 클러스터 GSSHOP, 통합시스템, 물류시스템 운영 및 인프라 모니터링, 클라우드 비용 효율화 및 장애 대응, 서비스 최적화 및 추가 기능 개발 진행`,
       logo: 'gsretail.png'
     },
     {
