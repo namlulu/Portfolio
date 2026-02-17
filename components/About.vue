@@ -7,7 +7,7 @@
       </div>
       <div class="quotes text-center mb-10" data-aos="fade-up">
         <q>
-          애플리케이션 개발을 넘어, 시스템 인프라까지 깊게 파고들어 서비스의 근본적인 효율을 개선하는 엔지니어입니다
+          개발을 넘어, 시스템 인프라까지 깊게 파고들어 서비스의 근본적인 효율을 개선하는 엔지니어입니다.
         </q>
         <br />
       </div>
@@ -35,7 +35,7 @@ export default {
   computed: {
     // 연차 자동 계산 로직
     experienceYears() {
-      const startYear = 2023; // 여기에 실제 커리어 시작 연도를 적으세요.
+      const startYear = 2022; // 여기에 실제 커리어 시작 연도를 적으세요.
       const currentYear = new Date().getFullYear();
       return currentYear - startYear + 1;
     }
