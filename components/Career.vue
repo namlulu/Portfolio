@@ -7,17 +7,21 @@
           <v-timeline>
             <v-timeline-item
               v-for="(career, index) in careers"
-              :key="career.company"
+              :key="`${career.company}-${career.duration}`"
               :data-aos="index % 2 === 0 ? 'fade-left' : 'fade-right'"
               color="transparent"
               large
             >
               <template v-slot:icon>
-                <v-avatar>
+                <v-avatar :color="career.logo ? undefined : 'grey darken-3'">
                   <img
+                    v-if="career.logo"
                     class="career-logo"
                     :src="require(`@/assets/images/logos/${career.logo}`)"
                   />
+                  <span v-else class="career-initial">
+                    {{ career.company.charAt(0) }}
+                  </span>
                 </v-avatar>
               </template>
               <template v-slot:opposite>
@@ -68,6 +72,11 @@ export default {
   }
   .career-logo {
     object-fit: contain;
+  }
+  .career-initial {
+    color: #02f3e6;
+    font-weight: bold;
+    font-size: 1.25rem;
   }
 }
 </style>

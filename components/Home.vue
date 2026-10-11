@@ -17,7 +17,11 @@
             :loop="true"
             :type-speed="35"
             :back-speed="35"
-            :strings="['웹 개발자', '앱 개발자', '데브옵스']"
+            :strings="[
+              '클라우드 아키텍트',
+              'MLOps 엔지니어',
+              'SRE / DevOps 엔지니어'
+            ]"
           >
             <div class="sub-text">
               저는 <span class="typing font-weight-bold"></span> 입니다.

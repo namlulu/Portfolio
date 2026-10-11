@@ -8,29 +8,35 @@ export default {
   ],
   Area: [
     {
-      name: 'Web',
-      description: `어떤 브라우저라도 문제없이 동작하는 반응형 웹 서비스를 구축할 수 있습니다.
-      2-tier, 3-tier 아키텍처를 설계하고 개발할 수 있습니다.`,
-      logo: 'web.png'
+      name: 'Hybrid Cloud',
+      description: `온프레미스(VMware)와 AWS·GCP·Azure를 잇는 하이브리드 아키텍처를 설계합니다.
+      워크로드 특성에 따라 배치 기준을 세우고, 연결 방식과 전환 조건을 비용·가용성 근거로 결정합니다.`,
+      icon: 'mdi-cloud-sync-outline'
     },
     {
-      name: 'Desktop App.',
+      name: 'Platform & SRE',
       description:
-        'Electron을 활용하여 PC 운영체제 (window, linux, macOS)에서 문제없이 구동할 수 있는 데스크탑 어플리케이션을 개발할 수 있습니다.',
-      logo: 'desktop.png'
+        'Kubernetes 기반 플랫폼 표준을 만들고 Terraform·Ansible로 코드화합니다. 관측성, Backup/DR, FinOps까지 운영 체계를 설계합니다.',
+      icon: 'mdi-kubernetes'
     },
     {
-      name: 'Mobile App.',
+      name: 'MLOps',
       description:
-        'Flutter를 활용하여 Mobile 운영체제(android, ios)에서 문제없이 구동할 수 있는 모바일 어플리케이션을 개발할 수 있습니다.',
-      logo: 'mobileapp.png'
+        '온프레미스 GPU 클러스터(A100·H100·L4)를 구축하고 MIG로 자원을 분할합니다. KServe·MLflow로 모델 학습과 서빙 체계를 표준화합니다.',
+      icon: 'mdi-brain'
     }
   ],
   CAREER: [
     {
+      company: 'KOLON INDUSTRIES',
+      duration: '2026 ~ NOW',
+      description: `Cloud Architect / MLOps. VMware 온프레미스와 Azure 하이브리드 환경의 워크로드 배치 원칙 수립 및 AKS 플랫폼 표준화, Ansible 기반 GPU 쿠버네티스 클러스터(A100·H100·L4, MIG) 구축, KServe·MLflow 기반 모델 학습·서빙 체계 구축.`,
+      logo: null
+    },
+    {
       company: 'GS RETAIL',
-      duration: '2024 ~ NOW',
-      description: `AWS 기반 EKS 클러스터 GSSHOP, 통합시스템, 물류시스템 운영 및 인프라 모니터링, 클라우드 비용 효율화 및 장애 대응, 서비스 최적화 및 추가 기능 개발 진행`,
+      duration: '2024 ~ 2026',
+      description: `SRE / DevOps. GSSHOP·통합시스템·물류시스템 AWS 인프라 운영, GCP–AWS 하이브리드 네트워크·랜딩존 설계, IDC → AWS 이관과 워크로드 배치 기준 수립, EKS 비용 63% 절감, Backup/DR 및 MSP 운영 내재화.`,
       logo: 'gsretail.png'
     },
     {
@@ -60,119 +66,68 @@ export default {
   ],
   SKILLS: [
     {
-      name: '프론트엔드',
+      name: '클라우드 & IaC',
       items: [
-        {
-          name: 'Vue',
-          image: 'vue.png'
-        },
-        {
-          name: 'React',
-          image: 'react.svg'
-        },
-        {
-          name: 'ReactNative',
-          image: 'react.svg'
-        },
-        {
-          name: 'Nuxt',
-          image: 'nuxt.svg'
-        },
-        {
-          name: 'Next',
-          image: 'nextjs.png'
-        },
-        {
-          name: 'Flutter',
-          image: 'flutter.svg'
-        }
+        { name: 'AWS', image: 'aws.svg' },
+        { name: 'Azure', image: 'azure.svg' },
+        { name: 'GCP', image: 'gcp.svg' },
+        { name: 'VMware', image: 'vmware.svg' },
+        { name: 'Terraform', image: 'terraform.svg' },
+        { name: 'Ansible', image: 'ansible.svg' }
       ]
     },
     {
-      name: '백엔드',
+      name: '컨테이너 플랫폼',
       items: [
-        {
-          name: 'Node',
-          image: 'nodejs.webp'
-        },
-        {
-          name: 'Typescript',
-          image: 'typescript.png'
-        },
-        {
-          name: 'Express',
-          image: 'express.png'
-        },
-        {
-          name: 'Nest',
-          image: 'nestjs.svg'
-        },
-        {
-          name: 'Java',
-          image: 'java.png'
-        },
-        {
-          name: 'Spring boot',
-          image: 'springboot.png'
-        }
+        { name: 'Kubernetes', image: 'kubernetes.png' },
+        { name: 'Docker', image: 'docker.png' },
+        { name: 'Helm', image: 'helm.svg' },
+        { name: 'ArgoCD', image: 'argocd.svg' },
+        { name: 'Kafka', image: 'kafka.svg' },
+        { name: 'Nginx', image: 'nginx.svg' }
       ]
     },
     {
-      name: '인프라',
+      name: 'MLOps & AI',
       items: [
-        {
-          name: 'Nginx',
-          image: 'nginx.svg'
-        },
-        {
-          name: 'PM2',
-          image: 'pm2.png'
-        },
-        {
-          name: 'Mongo DB',
-          image: 'mongodb.png'
-        },
-        {
-          name: 'Docker',
-          image: 'docker.png'
-        },
-        {
-          name: 'Kubernetes',
-          image: 'kubernetes.png'
-        },
-        {
-          name: 'MySQL',
-          image: 'mysql.png'
-        }
+        { name: 'NVIDIA GPU', image: 'nvidia.svg' },
+        { name: 'MLflow', image: 'mlflow.svg' },
+        { name: 'Python', image: 'python.svg' },
+        { name: 'FastAPI', image: 'fastapi.svg' },
+        { name: 'OpenSearch', image: 'opensearch.svg' }
       ]
     },
     {
-      name: '기타',
+      name: '관측성 & 데이터',
       items: [
-        {
-          name: 'Gitlab',
-          image: 'gitlab.png'
-        },
-        {
-          name: 'Github',
-          image: 'github.png'
-        },
-        {
-          name: 'Bitbucket',
-          image: 'bitbucket.svg'
-        },
-        {
-          name: 'Confluence',
-          image: 'confluence.png'
-        },
-        {
-          name: 'Jira',
-          image: 'jira.svg'
-        },
-        {
-          name: 'Bamboo',
-          image: 'bamboo.png'
-        }
+        { name: 'Datadog', image: 'datadog.svg' },
+        { name: 'Grafana', image: 'grafana.svg' },
+        { name: 'Prometheus', image: 'prometheus.svg' },
+        { name: 'MySQL', image: 'mysql.png' },
+        { name: 'PostgreSQL', image: 'postgresql.svg' },
+        { name: 'Redis', image: 'redis.svg' }
+      ]
+    },
+    {
+      name: 'CI/CD & 협업',
+      items: [
+        { name: 'Gitlab', image: 'gitlab.png' },
+        { name: 'Jenkins', image: 'jenkins.svg' },
+        { name: 'Bamboo', image: 'bamboo.png' },
+        { name: 'Bitbucket', image: 'bitbucket.svg' },
+        { name: 'Github', image: 'github.png' },
+        { name: 'Jira', image: 'jira.svg' }
+      ]
+    },
+    {
+      name: '개발',
+      items: [
+        { name: 'Java', image: 'java.png' },
+        { name: 'Spring boot', image: 'springboot.png' },
+        { name: 'Go', image: 'go.svg' },
+        { name: 'Node', image: 'nodejs.webp' },
+        { name: 'Typescript', image: 'typescript.png' },
+        { name: 'Flutter', image: 'flutter.svg' }
       ]
     }
   ],
@@ -191,12 +146,41 @@ export default {
       link: 'https://www.linkedin.com/in/seung-wook-lee-4a3a3410b/'
     },
     { name: 'Instagram', link: 'https://www.instagram.com/lllslw/' },
-    { name: 'Email', link: 'mailto:g.kousika@gmail.com' }
+    { name: 'Email', link: 'mailto:tmddnr3163@gmail.com' }
   ],
-  CONTACT_ME: 'mailto:g.tmddnr3163@gmail.com',
+  CONTACT_ME: 'mailto:tmddnr3163@gmail.com',
   CONNECT_VIA_LINKEDIN: 'https://in.linkedin.com/in/kousika-ganesan',
   GITHUB_LINK: 'https://github.com/namlulu',
   PROJECTS: [
+    {
+      title: 'GPU MLOps 플랫폼',
+      isConfidential: true,
+      techStack: ['Kubernetes', 'Ansible', 'NVIDIA MIG', 'KServe', 'MLflow'],
+      cover: 'cover-mlops.svg',
+      description: `코오롱인더스트리 온프레미스 GPU 클러스터입니다. A100·H100·L4 이기종 GPU 서버 8대를 단일 자원 풀로 묶고 MIG로 분할 할당했습니다.
+      OS·드라이버·Container Toolkit 버전을 Ansible 플레이북으로 고정하고, 서빙은 KServe, 학습은 MLflow로 표준화했습니다.`
+    },
+    {
+      title: 'GCP–AWS 하이브리드 네트워크',
+      isConfidential: true,
+      techStack: [
+        'GCP HA VPN',
+        'AWS Transit Gateway',
+        'Shared VPC',
+        'Terraform'
+      ],
+      cover: 'cover-hybrid.svg',
+      description: `GSSHOP AI 쇼핑 어시스턴트를 위한 GCP–AWS 사설 연동 아키텍처입니다. VPN과 전용회선을 비용·가용성으로 비교해 4터널 HA VPN을 채택하고 전환 트리거를 정의했습니다.
+      Shared VPC 기반 랜딩존 네트워크 표준을 Terraform으로 코드화했습니다.`
+    },
+    {
+      title: 'GRM 통합 멤버십 인프라',
+      isConfidential: true,
+      techStack: ['EKS', 'ArgoCD', 'Terraform', 'ElastiCache', 'MSK'],
+      cover: 'cover-finops.svg',
+      description: `GS리테일 전 계열 공통 멤버십 인프라입니다. 알파/브라보 멀티 클러스터와 ALB·Route53 가중치 전환을 Terraform으로 코드화했고,
+      실사용량 기반 재설계로 EKS 월 비용을 $13,000에서 $4,800으로 63% 절감했습니다.`
+    },
     {
       title: '우리동네 GS',
       isConfidential: true,

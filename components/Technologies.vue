@@ -3,18 +3,7 @@
     <div class="technologies-title d-flex justify-center align-center">
       애용하는 <img class="heart" src="@/assets/images/heart.png" />
       <transition name="fade" mode="out-in" tag="div">
-        <div v-if="currentIndex === 0" :key="currentName">
-          {{ currentName }} 기술
-        </div>
-        <div v-if="currentIndex === 1" :key="currentName">
-          {{ currentName }} 기술
-        </div>
-        <div v-if="currentIndex === 2" :key="currentName">
-          {{ currentName }} 기술
-        </div>
-        <div v-if="currentIndex === 3" :key="currentName">
-          {{ currentName }} 기술
-        </div>
+        <div :key="currentName">{{ currentName }} 기술</div>
       </transition>
     </div>
     <carousel

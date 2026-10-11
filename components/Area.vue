@@ -10,7 +10,16 @@
           cols="12"
           sm="4"
         >
+          <v-icon
+            v-if="area.icon"
+            class="skill-icon"
+            color="#02f3e6"
+            data-aos="fade-up"
+          >
+            {{ area.icon }}
+          </v-icon>
           <img
+            v-else
             :alt="area.name"
             :src="require(`@/assets/images/${area.logo}`)"
             class="skill-img"
@@ -94,6 +103,9 @@ export default {
   }
   .skill-img {
     height: 7rem;
+  }
+  .skill-icon {
+    font-size: 7rem !important;
   }
 }
 </style>

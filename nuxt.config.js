@@ -10,7 +10,7 @@ export default {
    ** Headers of the page
    */
   head: {
-    titleTemplate: 'Namlulu - Excellent Software developer',
+    titleTemplate: 'Namlulu - Cloud Architect',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -18,20 +18,20 @@ export default {
         name: 'description',
         hid: 'description',
         content:
-          'Experienced in the field of web using JavaScript / Java and its frameworks. Proficient in building scalable micro services as well.'
+          'Cloud Architect & MLOps engineer. Designs hybrid cloud (VMware, AWS, GCP, Azure) architectures, Kubernetes platforms and GPU-based MLOps, backed by cost and reliability.'
       },
       {
         name: 'keywords',
-        content: 'Frontend developer, Backend developer, DevOps'
+        content: 'Cloud Architect, Hybrid Cloud, MLOps, SRE, DevOps, Kubernetes'
       },
       {
         name: 'og:title',
-        content: 'Namlulu - Software developer'
+        content: 'Namlulu - Cloud Architect'
       },
       {
         name: 'og:description',
         content:
-          'Experienced in the field of web using JavaScript / Java and its frameworks. Proficient in building scalable micro services as well.'
+          'Cloud Architect & MLOps engineer. Designs hybrid cloud (VMware, AWS, GCP, Azure) architectures, Kubernetes platforms and GPU-based MLOps, backed by cost and reliability.'
       },
       { name: 'og:type', content: 'website' },
       { name: 'og:url', content: 'https://namlulu.github.io/Portfolio' },
