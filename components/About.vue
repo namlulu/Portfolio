@@ -7,15 +7,24 @@
       </div>
       <div class="quotes text-center mb-10" data-aos="fade-up">
         <q>
-          개발을 넘어, 시스템 인프라까지 깊게 파고들어 서비스의 근본적인 효율을 개선하는 엔지니어입니다.
+          돌아간다고 좋은 시스템은 아닙니다.
         </q>
         <br />
       </div>
       <div class="content" data-aos="fade-up">
         <p>
-          Node.js 개발로 커리어를 시작해 현재 <b>{{ experienceYears }}차 개발자</b>로 활동 중인 <b>Namlulu</b>입니다.
-          반도체 모니터링 시스템, 회계 세무 플랫폼을 거쳐 현재는 <b>GS리테일의 SRE</b>로서 클라우드 네이티브 인프라 최적화와 시스템 안정성을 책임지고 있습니다. 
-          단순한 구현을 넘어 시스템 하부 구조를 탐구하며 근본적인 성능 병목을 해결하는 과정에 몰입하고 있습니다.
+          시스템이 놓일 자리를 설계하고, 그 선택을 비용과 안정성으로 증명하는
+          <b>{{ experienceYears }}년 차 클라우드 아키텍트</b>
+          <b>Namlulu</b>입니다. 애플리케이션 개발자로 시작해 반도체 모니터링
+          시스템, 세무 플랫폼, GS리테일 이커머스 서비스를 만들었고, 이후
+          GS리테일 클라우드인프라팀에서 AWS·GCP 하이브리드 인프라를 설계하고
+          운영했습니다.
+        </p>
+        <p>
+          현재는 코오롱인더스트리에서 VMware 온프레미스와 Azure를 아우르는
+          하이브리드 환경의 워크로드 배치 원칙을 세우고, GPU 클러스터 기반의
+          MLOps 플랫폼(KServe·MLflow)을 구축하고 있습니다. 개발자 출신으로서
+          개발팀이 실제로 받아들이는 인프라 표준을 만드는 일을 가장 잘합니다.
         </p>
       </div>
       <div data-aos="fade-up">
@@ -35,9 +44,9 @@ export default {
   computed: {
     // 연차 자동 계산 로직
     experienceYears() {
-      const startYear = 2022; // 여기에 실제 커리어 시작 연도를 적으세요.
-      const currentYear = new Date().getFullYear();
-      return currentYear - startYear + 1;
+      const startYear = 2022 // 여기에 실제 커리어 시작 연도를 적으세요.
+      const currentYear = new Date().getFullYear()
+      return currentYear - startYear + 1
     }
   }
 }

@@ -21,7 +21,7 @@
       </v-col>
     </v-row>
     <div class="footer">
-      <div class="copyright">© 2022 Namlulu</div>
+      <div class="copyright">© 2026 Namlulu</div>
     </div>
   </v-container>
 </template>
