@@ -31,7 +31,7 @@ export default {
       company: 'KOLON INDUSTRIES',
       duration: '2026 ~ NOW',
       description: `Cloud Architect / MLOps. VMware 온프레미스와 Azure 하이브리드 환경의 워크로드 배치 원칙 수립 및 AKS 플랫폼 표준화, Ansible 기반 GPU 쿠버네티스 클러스터(A100·H100·L4, MIG) 구축, KServe·MLflow 기반 모델 학습·서빙 체계 구축.`,
-      logo: null
+      logo: 'kolon.svg'
     },
     {
       company: 'GS RETAIL',
